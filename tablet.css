@@ -1,0 +1,72 @@
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.home-content{
+    margin-bottom: 300px;
+}
+
+.home-content .head img{
+    display: none;
+}
+.home-content .head h1{
+    font: 70px;
+    margin: 0px 0px 15px;
+}
+
+.home-content .sub{
+    margin-top: 190px;
+}
+
+
+.card{
+    width: 720px;
+    height: 201.2px;
+    margin-right: 200px;
+}
+
+.about-us .social{
+    display: none;
+}
+
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -100px;
+    margin-bottom: 1500px;
+    margin-top:200px;
+}
+
+.service section{
+    width: 610px;
+    height: 304.4px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.service section p{
+    margin-left: 150px;
+}
+
+.client h1{
+    text-align: end;
+}
+
+.client-logo{
+    margin-left: 500px;
+}
+
+.section-1{
+    margin-right: 100px;
+}
+
+.last-foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -400px;
+}

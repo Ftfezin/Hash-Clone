@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("assets/css/font-awesome.all.min.css");
+@import url("assets/css/flaticon.css");
+@import url("assets/css/icofont.min.css");
+
+:root {
+    --mainColor: #1a2cd7;
+    --dodgerBlue: #2768ff;
+    --textColor: #1a115e;
+    --textDark: #0e0a2d;
+    --white: #fff;
+    --black: #2e2e2e;
+    --gray: rgba(18, 20, 27, 0.6);
+    --attornyText: #9a7040;
+    --attorny: #92693c;
+    --dentist: #12c3ff;
+    --tomato: #ff6d4f;
+    --creative: #007bff;
+    --gridPort: #9d7ddd;
+    --creative2: #31ffb8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /* font-size: 10px; */
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: "Josefin Sans", sans-serif;
+    /* overflow-x: hidden; */
+    /* position: relative; */
+}
+
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 10px 0px 0px;
+}
+
+.nav-bar{
+    margin-right: 60px;
+    background: #4f87a0;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+.nav-bar a{
+    font-size: 18px;
+    color: var(--white);
+    font-weight: 500;
+    margin: 0 20px;
+    transition: .3s;
+}
+
+.nav-bar a:hover {
+    color: #42c1e8;
+}
+
+.home{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-top: 200px;
+    margin-left: 130px;
+}
+
+.home-content .head h1{
+    font-size: 80px;
+    margin: 0px 0px 22px;
+    color: #1c0e30;
+    margin-top: 80px;
+}
+
+.home-content .head h1 span{
+    color: #4f87a0;
+}
+
+.home-content .head img{
+    width: 500px;
+    height: 500px;
+    margin-left: 900px;
+    margin-top: -400px;
+}
+
+.home-content .sub{
+    margin-bottom: 200px;
+}
+
+.home-content .sub h4{
+    font-size: 30px;
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
+
+.home-content a{
+    background: rgb(0,140,255);
+    box-shadow: 0 0 25px rgb(0,140,255);
+    color: white;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    width: 1140px;
+    height: 201.2px;
+    background-color: #4f87a0;
+    border-radius: 100px;
+    padding: 60px 65px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+  }
+  
+  .card-content {
+    text-align: center;
+    flex-basis: calc(33.33% - 20px);
+    color: var(--white);
+  }
+  
+  .number {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .text {
+    font-size: 18px;
+    color: var(--white);
+  }
+
+  .about-us {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+
+  .about-us img{
+    width: 525px;
+    width: 525px;
+    margin-left: -200px;
+  }
+
+  .about-us .text-content{
+    margin-left: 400px;
+    margin-top: -400px;
+  }
+  
+  .about-us h1 {
+    width: 555px;
+    height: 138px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: -50px;
+    margin-left: -80px;
+    color: #564a73;
+  }
+  
+  .about-us p {
+    width: 555px;
+    height: 240px;
+    font-size: 20px;
+    margin: 0px 0px 25px;
+    line-height: 1.5;
+    color: #1a115e;
+  }
+
+  .social i{
+    display: inline-block;
+    font-size: 25px;
+    color: var(--other-color);
+    margin-right: 15px;
+    margin-bottom: 50px;
+    transition: all ease .55s;
+}
+
+.social i:hover{
+    transform: scale(1.08) translateY(-4px);
+    color: var(--main-color);
+} 
+
+.service {
+	display: flex;
+	flex-wrap: wrap;
+  width: 1140px;
+  height: 888px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 200px;
+}
+
+.service header h1{
+  margin-left: 350px;
+  color: #1a115e;
+}
+
+section{
+  width: 360px;
+  height: 334.4px;
+	background-color: #4f87a0;
+  text-align: center;
+	border: 1px solid #ddd;
+  border-radius: 15px;
+  transition: all .50s;
+}
+
+section h2 {
+  font-size: 20px;
+	margin: 0 0 0.5em;
+  margin-top: 100px;
+  color: #fff;
+}
+
+section p {
+  width: 300px;
+  height: 90px;
+  font-size: 16px;
+  margin: 0px 0px 10px;
+  margin-top: 80px;
+  margin-left: 30px;
+  color: whitesmoke;
+}
+
+section:hover{
+  color: #fff;
+  background: #4f87a0;
+}
+
+.client{
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.client h1{
+  font-weight: 600;
+  text-align: center;
+}
+
+.client .client-logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: rgb(234, 234, 234);
+}
+
+.client .client-logo img{
+  width: 201px;
+  height: 168x;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .section-1{
+  margin-left: 300px;
+}
+
+footer .section-1 h4{
+  font-size: 48px;
+  color: #4f87a0;
+}
+
+footer .section-1 p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer .section-1 .social{
+  font-size: 1.6rem;
+}
+
+footer .section-2{
+  margin-right: 250px;
+  margin-top: -30px;
+}
+
+.section-2 h4{
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.section-2 li{
+  margin-top: 20px;
+  color: #564a73;
+}
+
+.last-foot p{
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+}
